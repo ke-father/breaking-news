@@ -1,0 +1,63 @@
+html,
+body {
+    padding: 0;
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    /*设置背景图片  不平铺  处于中心*/
+    background: url("../images/login_bg.jpg") no-repeat center;
+    /*背景图片为浏览器大小*/
+    background-size: cover;
+}
+
+.loginBox {
+    width: 400px;
+    height: 310px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login_top {
+    height: 60px;
+    background: url("../images/login_title.png") no-repeat center;
+}
+
+.reg-box {
+    display: none;
+}
+
+.login-box {
+    padding: 0 30px;
+    margin-top: 30px;
+}
+
+.reg-box {
+    padding: 0 30px;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-form-item:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#link_reg {
+    font-size: 12px;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+.layui-input {
+    padding-left: 32px !important;
+}
