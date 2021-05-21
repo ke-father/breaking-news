@@ -78,7 +78,7 @@ $(function () {
                     time: 1000 //2秒关闭（如果不配置，默认是3秒）
                 }, function(){
                     // 跳转链接;
-                    location.href = '/breaking%20news/index.html';
+                    location.href = './index.html';
                     // 储存身份认证到本地
                     localStorage.setItem('Authorization', res.token);
                 })

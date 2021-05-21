@@ -46,6 +46,6 @@ $('#close').on('click', function () {
        // 当点击退出清空本地储
         localStorage.removeItem('Authorization');
         // 跳转到登陆界面
-        location.href = '/breaking%20news/login.html'
+        location.href = './login.html'
     });
 })
