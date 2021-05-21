@@ -21,7 +21,7 @@ function getUserInfo() {
 
 // // 渲染用户头像
 function renderAvatar(user) {
-    console.log(user)
+    // console.log(user)
     // 获得用户名称
     let name = user.nickname || user.username;
     // 渲染用户名称
